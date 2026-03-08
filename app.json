@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "at.ac.univie.hci.MyA2App",
+    "slug": "MyA2App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.peaceda.MyA2App"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eca37caf-f16a-4c6d-b5cd-1989ab588939"
+      }
+    },
+    "owner": "peaceda",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/eca37caf-f16a-4c6d-b5cd-1989ab588939"
+    }
+  }
+}
